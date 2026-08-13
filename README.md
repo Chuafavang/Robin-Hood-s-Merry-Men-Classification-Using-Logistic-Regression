@@ -26,15 +26,6 @@ The predictor variables are:
 
 The analysis uses the `merry_0.csv` dataset.
 
-The dataset was selected based on the student number using:
-
-```r
-ysn = 1896853
-dataseta3 = (ysn + 2) %% 3
-```
-
-This resulted in **dataset 0** being selected.
-
 The data was split into:
 
 * **Training set:** 2/3 of the observations
@@ -199,7 +190,6 @@ robin-hood-merry-men-classification/
 │
 ├── SRC/
 │   └── merry_men.Rmd
-│
 │
 └── README.md
 ```
